@@ -4,7 +4,7 @@
   --font-sans: 'Plus Jakarta Sans', sans-serif;
 
   /* Color Palette */
-  --bg-main: #0b1329;
+  --bg-main: lightyellow;
   --bg-surface: #101c3d;
   --bg-card: #15244d;
   --bg-card-hover: #1c2e5e;
@@ -49,9 +49,15 @@
   box-sizing: border-box;
 }
 
+html, body, #root {
+  background: lightyellow !important;
+  background-color: lightyellow !important;
+}
+
 body {
   font-family: var(--font-primary);
-  background-color: var(--bg-main);
+  background: lightyellow !important;
+  background-color: lightyellow !important;
   color: var(--text-primary);
   min-height: 100vh;
   overflow-x: hidden;
