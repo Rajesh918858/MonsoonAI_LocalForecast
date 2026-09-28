@@ -66,7 +66,7 @@ export default function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className="app-container" style={{ backgroundColor: 'lightyellow', background: 'lightyellow' }}>
       {/* Top Header */}
       <Header
         activeTab={activeTab}

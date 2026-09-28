@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: radial-gradient(circle at 15% 15%, #0f1d40 0%, #080f24 100%);
+  background: lightyellow !important;
+  background-color: lightyellow !important;
 }
 
 /* ========================================================
